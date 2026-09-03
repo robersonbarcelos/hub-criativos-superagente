@@ -597,20 +597,31 @@
           <span class="fc-chev">▾</span>
         </button>
         <ul class="sub-list">
-          <li class="sub-item approved"><span class="sub-status"></span>01.1 · Preciso saber programar?</li>
-          <li class="sub-item approved"><span class="sub-status"></span>01.2 · Diferença pro ChatGPT</li>
-          <li class="sub-item approved"><span class="sub-status"></span>01.3 · Já testei 5 ferramentas</li>
-          <li class="sub-item approved"><span class="sub-status"></span>01.4 · Substitui funcionário?</li>
-          <li class="sub-item approved"><span class="sub-status"></span>01.5 · Esquece o que falei ontem?</li>
+          <li class="sub-item approved" data-view="format-01" data-card="01-1"><span class="sub-status"></span>01.1 · Preciso saber programar?</li>
+          <li class="sub-item approved" data-view="format-01" data-card="01-2"><span class="sub-status"></span>01.2 · Diferença pro ChatGPT</li>
+          <li class="sub-item approved" data-view="format-01" data-card="01-3"><span class="sub-status"></span>01.3 · Já testei 5 ferramentas</li>
+          <li class="sub-item approved" data-view="format-01" data-card="01-4"><span class="sub-status"></span>01.4 · Substitui funcionário?</li>
+          <li class="sub-item approved" data-view="format-01" data-card="01-5"><span class="sub-status"></span>01.5 · Esquece o que falei ontem?</li>
         </ul>
       </li>
 
-      <li class="format-item locked">
-        <button class="format-btn">
+      <li class="format-item" id="nav-02">
+        <button class="format-btn" id="nav-02-btn">
           <span class="format-num">02</span>
           <span class="format-name">Selfie React</span>
-          <span class="format-count">—</span>
+          <span class="format-count">8/8</span>
+          <span class="fc-chev">▾</span>
         </button>
+        <ul class="sub-list">
+          <li class="sub-item approved" data-view="format-02" data-card="02-1"><span class="sub-status"></span>02.1 · Agenda tocada pelo Aspira</li>
+          <li class="sub-item approved" data-view="format-02" data-card="02-2"><span class="sub-status"></span>02.2 · Notificação ao vivo</li>
+          <li class="sub-item approved" data-view="format-02" data-card="02-3"><span class="sub-status"></span>02.3 · Conversa real no Telegram</li>
+          <li class="sub-item approved" data-view="format-02" data-card="02-4"><span class="sub-status"></span>02.4 · Custo contratar vs agente</li>
+          <li class="sub-item approved" data-view="format-02" data-card="02-5"><span class="sub-status"></span>02.5 · "IA vai acabar com empregos"</li>
+          <li class="sub-item approved" data-view="format-02" data-card="02-6"><span class="sub-status"></span>02.6 · Gráfico de adoção de agentes</li>
+          <li class="sub-item approved" data-view="format-02" data-card="02-7"><span class="sub-status"></span>02.7 · Thread sobre LLM sem memória</li>
+          <li class="sub-item approved" data-view="format-02" data-card="02-8"><span class="sub-status"></span>02.8 · Notícia sobre adoção de agentes</li>
+        </ul>
       </li>
       <li class="format-item locked">
         <button class="format-btn">
@@ -628,7 +639,7 @@
       </li>
     </ul>
 
-    <div class="sidebar-foot">01 de N formatos definidos</div>
+    <div class="sidebar-foot">02 de N formatos definidos</div>
   </aside>
 
   <main class="main">
@@ -651,10 +662,10 @@
             <div class="fc-name">Caixinha de Pergunta</div>
             <div class="fc-desc">Diego responde perguntas de aluno em formato de resposta a comentário — derivado do talking head, sem gravação nova.</div>
           </div>
-          <div class="format-card is-locked">
-            <div class="format-card-top"><span class="fc-num">02</span><span class="fc-chip is-empty">em breve</span></div>
+          <div class="format-card" id="card-02">
+            <div class="format-card-top"><span class="fc-num">02</span><span class="fc-chip">8/8 aprovados</span></div>
             <div class="fc-name">Selfie React</div>
-            <div class="fc-desc">Mesmo áudio do roteiro base, Diego reage a algo na tela enquanto fala.</div>
+            <div class="fc-desc">Diego reage a algo real na tela (agenda, conversa, notícia, dado de mercado) enquanto fala — fala nova por caso, sem depender de um roteiro base.</div>
           </div>
           <div class="format-card is-locked">
             <div class="format-card-top"><span class="fc-num">03</span><span class="fc-chip is-empty">em breve</span></div>
@@ -800,43 +811,260 @@
     </div>
     </section>
 
+    <section data-view="format-02">
+    <div class="topbar">
+      <div class="crumb">02 · <b>Selfie React</b></div>
+      <div class="progress-pill">
+        <span>8/8 aprovados</span>
+        <span class="progress-track"><span class="progress-fill" style="width:100%"></span></span>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="content-head">
+        <div class="content-eyebrow">Formato 02</div>
+        <h1>Selfie React</h1>
+        <p class="content-desc">
+          Diego reage a algo real na tela — a própria agenda, uma conversa do Aspira, um dado de mercado —
+          enquanto fala. Cada reação tem fala própria, escrita e auditada, não reaproveitada de outro roteiro.
+        </p>
+
+        <div class="meta-row">
+          <div class="meta-item"><span class="k">Esforço</span><span class="v">Baixo</span></div>
+          <div class="meta-item"><span class="k">Prioridade</span><span class="v">Tier S</span></div>
+          <div class="meta-item"><span class="k">Gate aplicado</span><span class="v">copy-qa-sms</span></div>
+          <div class="meta-item"><span class="k">CTA</span><span class="v">Link da bio</span></div>
+        </div>
+      </div>
+
+      <article class="script-card" id="02-1">
+        <div class="script-card-head">
+          <div>
+            <div class="script-id">02.1 · Visual Hook</div>
+            <div class="script-title">Reage à agenda/rotina tocada pelo Aspira</div>
+          </div>
+          <span class="status-chip">Aprovado</span>
+        </div>
+        <div class="script-body">
+          <div class="script-line fala"><span class="label">Gancho</span><p>"Isso aqui é a minha agenda de hoje. Eu não toquei em nada disso."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego em selfie, aponta pro print da própria agenda/lista de tarefas do dia, expressão neutra de quem está mostrando algo real.</p></div>
+          <div class="script-line fala"><span class="label">Reação</span><p>"Briefing de cripto, análise de campanha, resposta de suporte. Tudo isso o Aspira já processou antes de eu acordar. Eu só entro quando preciso decidir alguma coisa de verdade."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego passa o dedo pela tela apontando cada item, tom de quem está genuinamente conferindo.</p></div>
+          <div class="script-line fala"><span class="label">Desenvolve</span><p>"Eu não gasto tempo em tarefa repetitiva porque o agente já resolve isso. O que sobra pra mim é decisão, não execução."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego olha pra câmera, mais sério, reforçando o ponto.</p></div>
+          <div class="script-line fala"><span class="label">CTA</span><p>"Clica no link aqui embaixo e cria o seu."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Aponta pra baixo da tela. Duração estimada: 32s.</p></div>
+        </div>
+      </article>
+
+      <article class="script-card" id="02-2">
+        <div class="script-card-head">
+          <div>
+            <div class="script-id">02.2 · Pattern Interrupt</div>
+            <div class="script-title">Reage a notificação chegando ao vivo</div>
+          </div>
+          <span class="status-chip">Aprovado</span>
+        </div>
+        <div class="script-body">
+          <div class="script-line fala"><span class="label">Gancho</span><p>(sem fala inicial — notificação aparece, Diego olha, pausa) "Peraí, chegou agora."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego em selfie, notificação real do Aspira aparece sobreposta na tela (analytics, campanha ou briefing), ele interrompe o que estava fazendo pra olhar.</p></div>
+          <div class="script-line fala"><span class="label">Reação</span><p>"Isso é o Aspira me avisando de algo que ele processou sozinho. Eu não pedi. Ele viu que era importante e me trouxe."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego lê a notificação em voz alta, tom de quem está genuinamente reagindo ao vivo.</p></div>
+          <div class="script-line fala"><span class="label">Desenvolve</span><p>"É isso que muda o jogo. Não é um chat esperando eu perguntar. É um agente que age e me avisa quando precisa de mim."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego guarda o celular/fecha a notificação, olha pra câmera.</p></div>
+          <div class="script-line fala"><span class="label">CTA</span><p>"Clica no link aqui embaixo e cria o seu."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Aponta pra baixo da tela. Duração estimada: 30s.</p></div>
+        </div>
+      </article>
+
+      <article class="script-card" id="02-3">
+        <div class="script-card-head">
+          <div>
+            <div class="script-id">02.3 · Autoridade (dogfooding)</div>
+            <div class="script-title">Reage ao print de conversa real do Aspira no Telegram</div>
+          </div>
+          <span class="status-chip">Aprovado</span>
+        </div>
+        <div class="script-body">
+          <div class="script-line fala"><span class="label">Gancho</span><p>"Olha essa conversa aqui. Isso é o Aspira respondendo sozinho."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mostra print real de uma conversa do Telegram com o Aspira, tela visível.</p></div>
+          <div class="script-line fala"><span class="label">Reação</span><p>"Repara: ele lembra do contexto de antes, responde com o histórico completo, e resolve sem eu precisar entrar. Isso é suporte do meu clube funcionando 24 horas."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego aponta trechos específicos da conversa enquanto fala.</p></div>
+          <div class="script-line fala"><span class="label">Desenvolve</span><p>"Eu uso esse mesmo agente nas minhas empresas. Não é modo demonstração. É a operação de verdade, rodando com o dinheiro de verdade em jogo."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mais sério, tom de autoridade.</p></div>
+          <div class="script-line fala"><span class="label">CTA</span><p>"Clica no link aqui embaixo e cria o seu."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Aponta pra baixo da tela. Duração estimada: 34s.</p></div>
+        </div>
+      </article>
+
+      <article class="script-card" id="02-4">
+        <div class="script-card-head">
+          <div>
+            <div class="script-id">02.4 · Contraste</div>
+            <div class="script-title">Reage a manchete sobre custo de contratar vs usar agente</div>
+          </div>
+          <span class="status-chip">Aprovado</span>
+        </div>
+        <div class="script-body">
+          <div class="script-line fala"><span class="label">Gancho</span><p>"Olha esse número aqui. É exatamente o que eu vivo todo mês."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mostra na tela uma manchete/matéria real sobre custo de mão de obra vs. automação de tarefas (produção precisa localizar fonte real antes de gravar).</p></div>
+          <div class="script-line fala"><span class="label">Reação</span><p>"Contratar alguém pra fazer tarefa repetitiva custa salário, encargo, treinamento. Meu agente custa entre R$50 e R$150 por mês de operação. Não tem comparação."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego aponta a diferença, expressão de quem está fazendo a conta em voz alta.</p></div>
+          <div class="script-line fala"><span class="label">Desenvolve</span><p>"Trabalho repetitivo não precisa de salário fixo pra ser resolvido. Uma estrutura simples já dá conta."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mais calmo, tom explicativo.</p></div>
+          <div class="script-line fala"><span class="label">CTA</span><p>"Clica no link aqui embaixo e cria o seu."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Aponta pra baixo da tela. Duração estimada: 33s.</p></div>
+        </div>
+        <div class="script-body" style="padding-top:0;">
+          <div class="script-line"><span class="label">⚠️ Pendência</span><p>Produção deve localizar manchete/matéria REAL sobre custo de contratação vs. IA antes de gravar. Nunca inventar a fonte.</p></div>
+        </div>
+      </article>
+
+      <article class="script-card" id="02-5">
+        <div class="script-card-head">
+          <div>
+            <div class="script-id">02.5 · Contrarian</div>
+            <div class="script-title">Reage a post "IA vai acabar com empregos"</div>
+          </div>
+          <span class="status-chip">Aprovado</span>
+        </div>
+        <div class="script-body">
+          <div class="script-line fala"><span class="label">Gancho</span><p>"Vejo esse post toda semana. E ele tá olhando pro lado errado."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mostra print de um post genérico sobre "IA vai acabar com empregos", expressão calma, não debochada.</p></div>
+          <div class="script-line fala"><span class="label">Reação</span><p>"IA não acaba com quem se adapta. Acaba com quem continua fazendo tarefa repetitiva do jeito antigo."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego fala com firmeza, sem ironia, tom de quem já viu essa preocupação de perto.</p></div>
+          <div class="script-line fala"><span class="label">Desenvolve</span><p>"A diferença está em aprender o mecanismo antes de ter medo dele. Eu não virei programador pra isso. Aprendi o mecanismo. E é isso que ensino: não é sobre substituir você, é sobre você não perder tempo com o que já pode ser resolvido."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mais próximo da câmera, tom pessoal.</p></div>
+          <div class="script-line fala"><span class="label">CTA</span><p>"Clica no link aqui embaixo e cria o seu."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Aponta pra baixo da tela. Duração estimada: 34s.</p></div>
+        </div>
+      </article>
+
+      <article class="script-card" id="02-6">
+        <div class="script-card-head">
+          <div>
+            <div class="script-id">02.6 · Dado/Stat chocante</div>
+            <div class="script-title">Reage a gráfico de crescimento de adoção de agentes de IA</div>
+          </div>
+          <span class="status-chip">Aprovado</span>
+        </div>
+        <div class="script-body">
+          <div class="script-line fala"><span class="label">Gancho</span><p>"Olha essa curva aqui. Eu tô exatamente no meio disso."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mostra gráfico real de crescimento/adoção de agentes de IA (produção deve localizar fonte confiável).</p></div>
+          <div class="script-line fala"><span class="label">Reação</span><p>"Isso não é hype. É gente resolvendo problema de verdade com agente todo dia. Eu uso dois nos meus próprios negócios, hoje, não é projeção."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego aponta a curva subindo, tom confiante.</p></div>
+          <div class="script-line fala"><span class="label">Desenvolve</span><p>"A pergunta não é se isso vai crescer. É se você entra agora, com estrutura, ou entra depois, correndo atrás."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mais sério, pausa antes da frase final.</p></div>
+          <div class="script-line fala"><span class="label">CTA</span><p>"Clica no link aqui embaixo e cria o seu."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Aponta pra baixo da tela. Duração estimada: 32s.</p></div>
+        </div>
+        <div class="script-body" style="padding-top:0;">
+          <div class="script-line"><span class="label">⚠️ Pendência</span><p>Produção deve localizar gráfico/dado REAL de adoção de agentes de IA antes de gravar. Diego não narra números do gráfico em voz alta — só reage e usa o próprio exemplo (2 agentes próprios, já confirmado).</p></div>
+        </div>
+      </article>
+
+      <article class="script-card" id="02-7">
+        <div class="script-card-head">
+          <div>
+            <div class="script-id">02.7 · Prova Social</div>
+            <div class="script-title">Reage a thread técnica sobre LLM sem memória</div>
+          </div>
+          <span class="status-chip">Aprovado</span>
+        </div>
+        <div class="script-body">
+          <div class="script-line fala"><span class="label">Gancho</span><p>"Essa thread aqui explica exatamente o problema que eu resolvo."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mostra print de uma thread/post técnico real sobre limitação de LLM sem memória (produção localiza fonte real).</p></div>
+          <div class="script-line fala"><span class="label">Reação</span><p>"Ele tá certo. Todo modelo de linguagem, sozinho, esquece a conversa assim que ela termina. O problema nunca foi a IA. É rodar ela sem memória, sem identidade, sem contexto."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego aponta o trecho da thread, tom de quem confirma algo que já sabia.</p></div>
+          <div class="script-line fala"><span class="label">Desenvolve</span><p>"É exatamente isso que eu ensino a estruturar. Não é sobre qual modelo você usa. É sobre o que você constrói em volta dele."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego olha pra câmera, tom de autoridade técnica sem soar arrogante.</p></div>
+          <div class="script-line fala"><span class="label">CTA</span><p>"Clica no link aqui embaixo e cria o seu."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Aponta pra baixo da tela. Duração estimada: 33s.</p></div>
+        </div>
+        <div class="script-body" style="padding-top:0;">
+          <div class="script-line"><span class="label">⚠️ Pendência</span><p>Produção deve localizar thread/post técnico REAL sobre limitação de memória em LLM antes de gravar. Evitar "IA generativa" e "prompt" sem contexto na fala.</p></div>
+        </div>
+      </article>
+
+      <article class="script-card" id="02-8">
+        <div class="script-card-head">
+          <div>
+            <div class="script-id">02.8 · Pergunta direta</div>
+            <div class="script-title">Reage a notícia sobre adoção de agentes de IA</div>
+          </div>
+          <span class="status-chip">Aprovado</span>
+        </div>
+        <div class="script-body">
+          <div class="script-line fala"><span class="label">Gancho</span><p>"Você viu essa notícia? Eu vi isso chegando há um tempo."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mostra print de matéria real sobre adoção de agentes de IA (produção localiza fonte).</p></div>
+          <div class="script-line fala"><span class="label">Reação</span><p>"Não é surpresa pra mim. Uso agente nas minhas empresas desde antes disso virar notícia. O que mudou agora é que ficou mais fácil de qualquer pessoa ter o seu, sem saber programar."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego aponta a matéria, tom calmo, sem euforia.</p></div>
+          <div class="script-line fala"><span class="label">Desenvolve</span><p>"Isso vai acontecer com todo mundo. A escolha real é aprender a estrutura agora ou correr atrás depois que virar obrigação."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Diego mais direto, pausa antes da frase final.</p></div>
+          <div class="script-line fala"><span class="label">CTA</span><p>"Clica no link aqui embaixo e cria o seu."</p></div>
+          <div class="script-line visual"><span class="label">Visual</span><p>Aponta pra baixo da tela. Duração estimada: 31s.</p></div>
+        </div>
+        <div class="script-body" style="padding-top:0;">
+          <div class="script-line"><span class="label">⚠️ Pendência</span><p>Produção deve localizar matéria REAL sobre adoção de agentes de IA antes de gravar. Diego fala de próprio uso (fato confirmado), não de estatística de mercado inventada.</p></div>
+        </div>
+      </article>
+
+    </div>
+    </section>
+
   </main>
 </div>
 
 <script>
   const navHome = document.getElementById('nav-home');
-  const nav01 = document.getElementById('nav-01');
-  const nav01Btn = document.getElementById('nav-01-btn');
   const views = document.querySelectorAll('[data-view]');
+  const navItems = {}; // viewName -> { li, btn }
+
+  document.querySelectorAll('.format-item[id^="nav-"]').forEach(li => {
+    const num = li.id.replace('nav-', '');
+    if (num === 'home') return;
+    navItems['format-' + num] = { li, btn: document.getElementById('nav-' + num + '-btn') };
+  });
 
   function showView(name){
     views.forEach(v => v.classList.toggle('is-active', v.dataset.view === name));
     navHome.classList.toggle('active', name === 'home');
-    nav01.classList.toggle('active', name === 'format-01');
+    Object.entries(navItems).forEach(([viewName, { li }]) => {
+      li.classList.toggle('active', viewName === name);
+    });
   }
 
   navHome.querySelector('.format-btn').addEventListener('click', () => showView('home'));
-  document.getElementById('card-01').addEventListener('click', () => {
-    showView('format-01');
-    nav01.classList.remove('collapsed');
-  });
 
-  nav01Btn.addEventListener('click', () => {
-    const alreadyOnFormat = views[1].classList.contains('is-active') && nav01.classList.contains('active');
-    if (alreadyOnFormat){
-      nav01.classList.toggle('collapsed');
-    } else {
-      showView('format-01');
-      nav01.classList.remove('collapsed');
+  Object.entries(navItems).forEach(([viewName, { li, btn }]) => {
+    const card = document.getElementById('card-' + viewName.replace('format-', ''));
+    if (card){
+      card.addEventListener('click', () => {
+        showView(viewName);
+        li.classList.remove('collapsed');
+      });
+    }
+    if (btn){
+      btn.addEventListener('click', () => {
+        const alreadyOnFormat = document.querySelector('[data-view="' + viewName + '"]').classList.contains('is-active') && li.classList.contains('active');
+        if (alreadyOnFormat){
+          li.classList.toggle('collapsed');
+        } else {
+          showView(viewName);
+          li.classList.remove('collapsed');
+        }
+      });
     }
   });
 
-  document.querySelectorAll('.sub-item').forEach((el, i) => {
+  document.querySelectorAll('.sub-item[data-view]').forEach(el => {
     el.addEventListener('click', () => {
-      showView('format-01');
-      nav01.classList.remove('collapsed');
-      const targets = document.querySelectorAll('.script-card');
-      if (targets[i]) targets[i].scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const viewName = el.dataset.view;
+      const cardId = el.dataset.card;
+      showView(viewName);
+      if (navItems[viewName]) navItems[viewName].li.classList.remove('collapsed');
+      const target = document.getElementById(cardId);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   });
 </script>
