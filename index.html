@@ -61,7 +61,13 @@
     background: var(--bg-raised);
     display:flex;
     flex-direction:column;
+    scrollbar-width: thin;
+    scrollbar-color: var(--border) transparent;
   }
+  .sidebar::-webkit-scrollbar{ width: 6px; }
+  .sidebar::-webkit-scrollbar-track{ background: transparent; }
+  .sidebar::-webkit-scrollbar-thumb{ background: var(--border); border-radius: 3px; }
+  .sidebar::-webkit-scrollbar-thumb:hover{ background: var(--accent-line); }
 
   .brand{
     padding: 22px 20px 18px;
